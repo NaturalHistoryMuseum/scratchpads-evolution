@@ -1,49 +1,49 @@
 
-Outcomes
+# Outcomes
 
 
 
-**About this document**
+## About this document
 
 This document describes several existing data storage platforms and the results of their evaluation for use as part of the Scratchpads hosting service ([http://get.scratchpads.org](http://get.scratchpads.org/)), based on the criteria listed in _3-data-evaluation-plan.docx_ and findings listed in _platforms-under-evaluation.docx._ Based on these results, we make a recommendation for which service or services would be most appropriate to use.
 
 
 
-**Criteria Importance**
+## Criteria Importance
 
 
 
-High:
+### High:
 
-Data model compatibility/flexibility
+- Data model compatibility/flexibility
 
-Development activity
-
-
-
-Medium:
-
-Platform maturity
-
-Versioning/translation
-
-API maturity
-
-Data model standardisation
+- Development activity
 
 
 
-Low:
+### Medium:
 
-API standardisation
+- Platform maturity
 
-Deployment
+- Versioning/translation
+
+- API maturity
+
+- Data model standardisation
+
+
+
+### Low:
+
+- API standardisation
+
+- Deployment
 
 
 
 
 
-**Solid**
+## Solid
 
 
 
@@ -55,7 +55,7 @@ The largest disadvantage is that of maturity; the platform is still a prototype 
 
 
 
-**Wikibase**
+## Wikibase
 
 
 
@@ -63,7 +63,7 @@ As with Solid, Wikibase scores highly on development activity and flexibility, b
 
 
 
-**Taxonworks**
+## Taxonworks
 
 
 
@@ -75,7 +75,7 @@ The platform is still in somewhat of a development phase, but it does have long 
 
 
 
-**Dina Collections**
+## Dina Collections
 
 
 
@@ -87,7 +87,7 @@ The data models and API are based on existing standards which is beneficial but 
 
 
 
-**Living Atlases**
+## Living Atlases
 
 
 
@@ -95,7 +95,7 @@ The Living Atlases platform is, by its own admission, “for the aggregation and
 
 
 
-**QuitStore**
+## QuitStore
 
 
 
@@ -107,7 +107,7 @@ Although the project is part of a research group, it is not a funded and its dev
 
 
 
-**Recommendation**
+## Recommendation
 
 
 

@@ -15,13 +15,15 @@
 
 
 
+## Data models
+
 |                     | Scratchpads2 | Solid | Wikibase | Taxonworks | Dina Collections | Living Atlas | QuitStore |
 |---------------------|--------------|-------|----------|------------|------------------|--------------|-----------|
 | Descriptions/traits | 2            | 2     | 2        | 2          | 0                | 1            | 2         |
-| Taxonomy            | 2            |       |          | 2          | 2                | 1            |           |
-| Specimens           | 2            |       |          | 2          | 2                | 1            |           |
-| Observations        | 2            |       |          | 2          | 2                | 1            |           |
-| Literature          | 2            |       |          | 2          | 0                | 1            |           |
+| Taxonomy            | 2            | 2     | 2        | 2          | 2                | 1            | 2         |
+| Specimens           | 2            | 2     | 2        | 2          | 2                | 1            | 2         |
+| Observations        | 2            | 2     | 2        | 2          | 2                | 1            | 2         |
+| Literature          | 2            | 2     | 2        | 2          | 0                | 1            | 2         |
 
 
 

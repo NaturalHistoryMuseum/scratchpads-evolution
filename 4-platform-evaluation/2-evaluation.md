@@ -1,11 +1,5 @@
 
-1.  # Data Storage Platforms Under Evaluation
-
-2.  Todo:
-
-3.  - Number of developers in each team
-
-4.  - Table of feature comparison
+# Data Storage Platforms Under Evaluation
 
 
 Evaluations have been made based on available documentation and running software. Where these resources are obscure or not available for a given criterion, a best-guess evaluation has been made.
@@ -36,7 +30,7 @@ The Solid project website [lists only one public provider](https://solidproject.
 
 
 
-1.  ## WikiBase
+## WikiBase
 
 
 [Wikibase](https://www.wikiba.se/) is a MediaWiki extension, and is the software that powers WikiData. It allows storage and representation of knowledge as linked data.
@@ -57,7 +51,7 @@ WikiBase has a read-only SPARQL endpoint that can expose entity statements and m
 
 Wikibase has built-in [multilingual capabilities](https://www.wikidata.org/wiki/Help:Multilingual).
 
-1.  ### Development
+### Development
 
 
 Wikibase has a [regular commit frequency](https://github.com/wikimedia/mediawiki-extensions-Wikibase/graphs/commit-activity) and currently makes [releases every few months](https://hub.docker.com/r/wikibase/wikibase/tags). Those who wish to contribute to the project must apply for a [developer account](https://www.mediawiki.org/wiki/Developer_account). The [primary development](https://meta.wikimedia.org/wiki/Wikidata/Development) is by a team working at Wikimedia Deutschland.
@@ -72,9 +66,9 @@ Projects that user Wikibase are listed on the [Wikibase showcase](https://www.wi
 
 
 
-1.  ## TaxonWorks
+## TaxonWorks
 
-    1.  ### Data Model
+    ### Data Model
 
 
 The TaxonWorks data model is available in the source repository as a [schema file](https://github.com/SpeciesFileGroup/taxonworks/blob/development/db/schema.rb). Included in the data model are equivalents for the core Scratchpads data types:
@@ -119,7 +113,7 @@ Revision history is available by default. It is also possible to add alternative
 
 Currently users are implemented as custom records. Some consideration has been given to incorporating [OpenID Connect functionality](https://github.com/SpeciesFileGroup/taxonworks/issues/1731), and URIs for users may be introduced in the near feature, which would enable OpenID integration without it being part of the Taxonworks platform.
 
-2.  ### Development
+### Development
 
 
 Taxonworks is funded by the [Species File Group and National Science Foundation](https://github.com/SpeciesFileGroup/taxonworks#funding). There is [regular development activity](https://github.com/SpeciesFileGroup/taxonworks/graphs/commit-activity) and [roughly weekly releases](https://github.com/SpeciesFileGroup/taxonworks/tags). The API is a [custom RESTful API](https://api.taxonworks.org/), and currently allows only read requests on a small number of endpoints, through write requests are [planned](https://github.com/SpeciesFileGroup/taxonworks/issues/1732). Recommended production deploy is using Kubernetes. [Instructions are provided](https://github.com/SpeciesFileGroup/install_taxonworks/blob/master/production/kubernetes/README.md) but not to much depth. The [Taxonworks registry](https://github.com/SpeciesFileGroup/taxonworks_doc/blob/master/REGISTRY.md) lists only one instance, that run by the project developers.
@@ -128,9 +122,9 @@ Taxonworks is funded by the [Species File Group and National Science Foundation]
 
 
 
-2.  ## DINA Collections
+## DINA Collections
 
-3.  DINA Collections uses [OpenAPI](https://spec.openapis.org/oas/v3.0.3), which is a REST-style API. The platform is composed of multiple modules, an overview of this is described in the [Data Model Concepts repository](https://github.com/DINA-Web/dina-model-concepts). The goal of the DINA project is to establish a set of Data Model and API standards that can be used by third parties, although they are not widely adopted yet, and nor are they well documented.
+DINA Collections uses [OpenAPI](https://spec.openapis.org/oas/v3.0.3), which is a REST-style API. The platform is composed of multiple modules, an overview of this is described in the [Data Model Concepts repository](https://github.com/DINA-Web/dina-model-concepts). The goal of the DINA project is to establish a set of Data Model and API standards that can be used by third parties, although they are not widely adopted yet, and nor are they well documented.
 
 
 
@@ -163,7 +157,7 @@ Dina project has some funding from Agriculture and Agri-Food Canada. Ends in 202
 
 
 
-1.  ### Data Model
+### Data Model
 
 
 The data models for DINA Collections are alluded to [in the documentation.](https://dina-demo-docs.nrm.se/docs/packages/backend/serviceConfigurations/#model-configuration-schema) However the documentation is not complete, so further confirmation will be needed.
@@ -206,7 +200,7 @@ There have been [no updates or releases since June 2019](https://github.com/dina
 
 
 
-1.  ## Living Atlases
+## Living Atlases
 
 
 Living Atlases (also known as the flagship project Atlas Of Living Australia) is a collection of front-end apps and back-end service tied together with a [logical service layer](https://support.ala.org.au/support/solutions/articles/6000196855--infrastructure-overview).
@@ -217,7 +211,7 @@ Living Atlases (also known as the flagship project Atlas Of Living Australia) is
 
 
 
-1.  ### Data Services
+### Data Services
 
 
 
@@ -256,14 +250,14 @@ A number of [other services](https://github.com/AtlasOfLivingAustralia/documenta
 
 
 
-2.  ### Maturity
+### Maturity
 
 
 There are a large number of [sites in production](https://living-atlases.gbif.org/#participants). The project is split into [several components](https://github.com/AtlasOfLivingAustralia) all hosted on the ALA Github organisation, and as a whole receive regular and frequent updates and releases.
 
 
 
-3.  ### Development
+### Development
 
 
 
