@@ -5,7 +5,7 @@
 
 ## About this document
 
-This document describes several existing data storage platforms and the results of their evaluation for use as part of the Scratchpads hosting service ([http://get.scratchpads.org](http://get.scratchpads.org/)), based on the criteria listed in _3-data-evaluation-plan.docx_ and findings listed in _platforms-under-evaluation.docx._ Based on these results, we make a recommendation for which service or services would be most appropriate to use.
+This document describes several existing data storage platforms and the results of their evaluation for use as part of the Scratchpads hosting service ([http://get.scratchpads.org](http://get.scratchpads.org/)), based on the criteria listed in the [data evaluation plan](./1-data-evaluation-plan.md) and findings listed in the [platform evaluation](./2-evaluation.md). Based on these results, we make a recommendation for which service or services would be most appropriate to use.
 
 
 
