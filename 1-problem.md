@@ -50,3 +50,6 @@ However, if we are to rely on an external project we want to ensure we have the 
 - Focus on our niche: front-end instead of backend
 -   Flexibility for users with special requirements in terms of where and how their data is stored
 -   Contributions to open source which are more useful to other projects, having fewer dependency or framework requirements
+
+
+**Next:** [Architecture](./2-architecture.md)

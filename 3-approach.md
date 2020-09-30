@@ -74,3 +74,6 @@ Before the process begins in earnest it is important to identify services we may
  - File storage
 
 Althrough these services won't be needed until the UI is much more complete, identifying these services up front will mean a longer period of testing to ensure the selected platforms suit the requirements of Scratchpads.
+
+
+**Next:** [Platform Evaluation](./4-platform-evaluation/README.md)

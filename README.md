@@ -31,6 +31,6 @@ Service providers we need to consider:
 
 The first of these is by far the most important, being the core purpose of Scratchpads sites.
 
-## [The Platforms](./4-platforms-evaluation/README.md)
+## [The Platforms](./4-platform-evaluation/README.md)
 
 We looked at six different platforms and checked their fit against Scratchpads requirements.

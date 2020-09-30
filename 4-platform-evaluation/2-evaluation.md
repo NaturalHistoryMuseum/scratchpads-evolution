@@ -301,3 +301,6 @@ QuitStore is part of the [AKSW Research Group (Agile Knowledge Engineering and S
 
 
 The Readme contains [instructions for installation](https://github.com/AKSW/QuitStore#getting-started) from source and using Docker.
+
+
+**Next**: [Quantify the evaluations](./3-data.md)

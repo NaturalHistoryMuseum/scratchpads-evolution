@@ -401,3 +401,7 @@ An ecological relationship between two taxa
     -   Progress: demo not working; [workarounds suggested](https://github.com/AtlasOfLivingAustralia/ala-install/issues/419)
 
 -   [QuitStore](https://github.com/AKSW/QuitStore)
+
+
+
+**Next:** [Evaluate the platforms](./2-evaluation.md)

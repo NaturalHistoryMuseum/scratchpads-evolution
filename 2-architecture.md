@@ -79,3 +79,5 @@ Decomposition would allow different configurations to provide different platform
 - Migration path: Phased approach
 
 - Data-driven: Monitor URL access, resource creation, do UX research
+
+**Next:** [Approach](./3-approach.md)
