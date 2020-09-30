@@ -68,34 +68,20 @@ Projects that user Wikibase are listed on the [Wikibase showcase](https://www.wi
 
 ## TaxonWorks
 
-    ### Data Model
+### Data Model
 
 
 The TaxonWorks data model is available in the source repository as a [schema file](https://github.com/SpeciesFileGroup/taxonworks/blob/development/db/schema.rb). Included in the data model are equivalents for the core Scratchpads data types:
 
 
 
-
-
-Biblio
-
-Sources
-
-[Species profile model](https://tdwg.github.io/ontology/ontology/voc/SpeciesProfileModel.rdf)
-
-Notes
-
-Taxonomy
-
-Taxon_Names
-
-[Specimen/Observation](https://dwc.tdwg.org/terms/)
-
-dwc_occurrences
-
-Ecological interactions
-
-biological_associations
+| | |
+|-|-|
+|Biblio|Sources|
+|[Species profile model](https://tdwg.github.io/ontology/ontology/voc/SpeciesProfileModel.rdf)|Notes|
+|Taxonomy|Taxon_Names|
+|[Specimen/Observation](https://dwc.tdwg.org/terms/)|dwc_occurrences|
+|Ecological interactions|biological_associations|
 
 
 
@@ -169,30 +155,17 @@ The data models for DINA Collections are alluded to [in the documentation.](http
 
 
 
-
-Biblio
-
-?
-
-[Species profile model](https://tdwg.github.io/ontology/ontology/voc/SpeciesProfileModel.rdf)
-
-?
-
-Taxonomy
-
-Taxon/TaxonName
-
-[Specimen/Observation](https://dwc.tdwg.org/terms/)
-
-specimen
-
-Ecological interactions
-
-?
+| | |
+|-|-|
+|Biblio|?|
+|[Species profile model](https://tdwg.github.io/ontology/ontology/voc/SpeciesProfileModel.rdf)|?|
+|Taxonomy|Taxon/TaxonName|
+|[Specimen/Observation](https://dwc.tdwg.org/terms/)|specimen|
+|Ecological interactions|?|
 
 
 
-Development
+### Development
 
 
 
@@ -215,26 +188,13 @@ Living Atlases (also known as the flagship project Atlas Of Living Australia) is
 
 
 
-
-Biblio
-
-?
-
-[Species profile model](https://tdwg.github.io/ontology/ontology/voc/SpeciesProfileModel.rdf)
-
-Species profiles/BIE – read only API
-
-Taxonomy
-
-Taxonomy/BIE – read only API
-
-[Specimen/Observation](https://dwc.tdwg.org/terms/)
-
-Occurrence/Biocache – read only API
-
-Ecological interactions
-
-?
+| | |
+|-|-|
+|Biblio|?|
+|[Species profile model](https://tdwg.github.io/ontology/ontology/voc/SpeciesProfileModel.rdf)|Species profiles/BIE – read only API|
+|Taxonomy|Taxonomy/BIE – read only API|
+|[Specimen/Observation](https://dwc.tdwg.org/terms/)|Occurrence/Biocache – read only API|
+|Ecological interactions|?|
 
 
 
