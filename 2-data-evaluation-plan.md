@@ -7,21 +7,17 @@ This document outlines the criteria by which we will evaluate potential data sto
 ## What Data?
 
 
-Not all data used by Scratchpads will necessarily be kept in the same storage service. Different kinds of data will have different storage and access requirements.
+Not all data used by Scratchpads will necessarily be kept in the same storage service. Different kinds of data will have different storage and access requirements, or may be deprecated all together.
 
-Scientific data (e.g. taxonomy, observation records, etc) and social data (e.g. blog posts, calendar events, comments, etc) are the primary kinds of data we are concerned with storing, since they represent the content of a Scratchpad. These data may also have specific requirements such as versioning or translation.
+Scientific data (e.g. taxonomy, observation records, etc) are the primary kinds of data we are concerned with storing, since they represent the core content of a Scratchpad. These data may also have specific requirements such as versioning or translation, or may be modified by site owners with the addition of extra fields.
+
+Social data (e.g. blog posts, calendar events, comments, etc) is not as widely used across all Scratchpads and may or may not be supported by a given platform.
 
 Other kinds of data - such as search indexes, access control settings, or user interface configuration - are concerned with the technical functioning of the system. The way they are stored and represented may depend on technical details of the chosen content storage system.
 
-This evaluation process is concerned primarily with the first kind of data, content data. Other kinds of data not supported by the chosen system may need a separate evaluation process where there is not a clear alternative storage solution available.
-
-## Project Contact
-
-
-Before evaluating the platforms, it’s important to contact their developers to let them know we will be carrying out this process, and to get as much up-to-date information as possible which may not be readily apparent in the codebase or documentation – for example schema/data model diagrams.
+This evaluation process is concerned primarily with the first kind of data, scientific data. Other kinds of data not supported by the chosen system may need a separate evaluation process where there is not a clear alternative storage solution available, or we may decide to drop support for that type of data.
 
 ## Criteria
-
 
 All evaluation criteria have three levels of scoring; 1 - does not comply, 2 - partially complies, and 3 - fully complies. Each criterion has a more specific description of what each level means for that criterion.
 
@@ -257,7 +253,3 @@ For platforms that don’t have fully flexible data models, we can compare a cor
     -   Progress: demo not working; [workarounds suggested](https://github.com/AtlasOfLivingAustralia/ala-install/issues/419)
 
 -   [QuitStore](https://github.com/AKSW/QuitStore)
-
-
-
-**Next:** [Evaluate the platforms](./2-evaluation.md)

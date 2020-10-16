@@ -36,6 +36,3 @@
 | 0   | Not supported   |
 | 1   | Limited support |
 | 2   | Full support    |
-
-
-**Next:** [Identify a best fit](./4-conclusions.md)

@@ -30,7 +30,7 @@ Developers working on Scratchpads are also less efficient, since they now have t
 
 ### Other issues with existing Scratchpads
 
-- Time consuming
+- Time consuming development
 - Lacks modern UI
 - Lacks e.g. linked data integration
 
@@ -38,18 +38,13 @@ Developers working on Scratchpads are also less efficient, since they now have t
 
 The niche that Scratchpads holds is that it offers a specific user experience that isn't covered by other platforms. To make the most of our developer resources we want to be able to focus development on the front end, and rely on existing projects for a backend.
 
-However, if we are to rely on an external project we want to ensure we have the ability to easily change provider if the chosen project(s) cease development, for example. No matter how much planning and platform review we do, we cannot predict the future with complete accuracy.
+Furthermore, if we're able to partner with a platform that directly benefits from the integration of a Scratchpads front end there may be incentive for that partner to provide more support to Scratchpads front end development.
+
+However we need to be careful to ensure Scratchpads remains decoupled from any potential platform. No matter how much planning and platform review we do, we cannot predict the future with complete accuracy so having the flexibility to change platforms is important.
+
+There are many other advantages to using a decoupled approach:
 
 - Facilitates fast and regular delivery of new features to users
 - Allows sharing of code between different projects
-- Reduces dependency on specific services
-- Is long-lasting
-- Is flexible
-- Doesn't re-invent the wheel
-- Uses standardised protocols
-- Focus on our niche: front-end instead of backend
--   Flexibility for users with special requirements in terms of where and how their data is stored
--   Contributions to open source which are more useful to other projects, having fewer dependency or framework requirements
-
-
-**Next:** [Architecture](./2-architecture.md)
+- Facilitates integration of additional services for sites with special requirements
+- Increases potential longevity
