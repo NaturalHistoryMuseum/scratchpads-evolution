@@ -6,31 +6,38 @@ The Scratchpads team has until November 2022 to migrate the platform away from D
 
 The Scratchpads front end, being our key differentiator from other platforms, should be our main focus of development. To make the best of our resources, data services such as data can and should be handled by other platforms. This will require a different architecture from Scratchpads 2.
 
-## [The Architecture](./2-architecture.md)
+## [Data Evaluation Plan](./2-data-evaluation-plan.md)
 
-To give us the flexibility to change our service providers over time and across individual sites, we should develop the front end in a way that is agnostic to those providers. This requires a gateway that provides a stable API for the UI to use, and mediates requests by conducting them to the appropriate service provider(s).
+How can we measure and compare platforms' conformity to the Scratchpads use case?
 
-## [The Approach](./3-approach.md)
+We present six important criteria for any platform Scratchpads integrates with, and a three-point grading system for quantifying each.
 
-To get code into production as quickly as possible, we can implement an incremental approach to code release. In summary:
+The criteria are:
 
-- Both the new and legacy platforms run simultaneously
-- The legacy platform acts as the data source for both front ends
-- Initially all requests are served by the legacy front end
-- As features are added to the new front end, requests can start to be served by that front end on a page-by page basis (either opt-in or opt-out by the user)
-- Once the new front end is considered feature complete, the data can be migrated to a new backend and the legacy platform can be discarded
+ - Data Model Compatibility
+ - Data Access and API
+ - Development Activity
+ - Platform Maturity
+ - API/Data model Standardisation
+ - Collaboration
 
-In order for this to work, we need new data services that can replace the legacy data service. Although these aren't strictly needed until the end of development, we want to make some provisional decisions as soon as possible so that we can start using and testing the services to ensure they are fit for integration with our project.
+For each of these we are able to score them on a scale from 1 (platform does not comply) to 3 (platform fully complies).
 
-Service providers we need to consider:
+## [Evaluation](./3-evaluation.md)
 
- - Natural history data storage & management
- - User authentication provider
- - Social & collaboration tools
- - Seach indexer
+We explore each of six platforms chosen for comparison, evaluating them against the relevant criteria.
 
-The first of these is by far the most important, being the core purpose of Scratchpads sites.
+The six platforms are:
+-   [Node Solid Server](https://github.com/solid/node-solid-server/)
+-   [WikiBase](https://www.wikiba.se/)
+-   [Taxonworks](https://github.com/SpeciesFileGroup/taxonworks)
+-   [Dina Collections](https://dina-demo-docs.nrm.se/docs/)
+-   [Atlas of Living Australia](https://github.com/AtlasOfLivingAustralia/ala-install#setup-the-living-atlas-demo)
+-   [QuitStore](https://github.com/AKSW/QuitStore)
 
-## [The Platforms](./4-platform-evaluation/README.md)
+The quantitative data is presented in [markdown](./4-data.md) and [csv](./4-data.csv) formats.
 
-We looked at six different platforms and checked their fit against Scratchpads requirements.
+## [Conclusions](./5-conclusions.md)
+
+We review the scores and comparisons and make the case for Taxonworks as the best fitting platform.
+We note that this is still open for consideration and that we hope to make an intial decision by 9 October 2020.

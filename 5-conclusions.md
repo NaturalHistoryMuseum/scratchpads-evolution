@@ -5,7 +5,7 @@
 
 ## About this document
 
-This document describes several existing data storage platforms and the results of their evaluation for use as part of the Scratchpads hosting service ([http://get.scratchpads.org](http://get.scratchpads.org/)), based on the criteria listed in the [data evaluation plan](./1-data-evaluation-plan.md) and findings listed in the [platform evaluation](./2-evaluation.md). Based on these results, we make a recommendation for which service or services would be most appropriate to use.
+This document describes several existing data storage platforms and the results of their evaluation for use as part of the Scratchpads hosting service ([http://get.scratchpads.org](http://get.scratchpads.org/)), based on the criteria listed in the [data evaluation plan](./2-data-evaluation-plan.md) and findings listed in the [platform evaluation](./3-evaluation.md). Based on these results, we make a recommendation for which service or services would be most appropriate to use.
 
 
 
@@ -19,25 +19,17 @@ This document describes several existing data storage platforms and the results 
 
 - Development activity
 
+- API  & data access
+
 
 
 ### Medium:
 
 - Platform maturity
 
-- Versioning/translation
+- Standardisation
 
-- API maturity
-
-- Data model standardisation
-
-
-
-### Low:
-
-- API standardisation
-
-- Deployment
+- Collaboration
 
 
 
@@ -109,14 +101,8 @@ Although the project is part of a research group, it is not a funded and its dev
 
 ## Recommendation
 
-
-
-The two most viable platforms for Scratchpads appear to be Taxonworks and Solid.
-
-
-
-In terms of a working relationship, Taxonworks would be the best choice of the two. Both projects would stand to gain from such a relationship, and both projects are working for similar audience bases.
-
-
+The most viable platforms for Scratchpads appear to be Taxonworks, and Solid. Of these, Taxonworks is the only to not score 1 on any of the criteria.
 
 An argument for choosing Solid could be made on the basis of it being backed by such an influential organisation as the W3C. However, this alone would not guarantee its long-term stability or even completion; Taxonworks on the other hand already has the funding to continue, and a specific audience to be held accountable to – and a partnership with Scratchpads would likely improve the chance of both projects remaining viable into the future.
+
+However we are still open to options that we may have missed, and receptive to facts that may have been overlooked. We hope to settle on a final decision by 9 October 2020.

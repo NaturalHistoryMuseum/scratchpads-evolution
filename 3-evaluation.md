@@ -81,7 +81,7 @@ The TaxonWorks data model is available in the source repository as a [schema fil
 |[Species profile model](https://tdwg.github.io/ontology/ontology/voc/SpeciesProfileModel.rdf)|Notes|
 |Taxonomy|Taxon_Names|
 |[Specimen/Observation](https://dwc.tdwg.org/terms/)|dwc_occurrences|
-|Ecological interactions|biological_associations|
+|Location|Geographic_areas|
 
 
 
@@ -110,49 +110,19 @@ Taxonworks is funded by the [Species File Group and National Science Foundation]
 
 ## DINA Collections
 
-DINA Collections uses [OpenAPI](https://spec.openapis.org/oas/v3.0.3), which is a REST-style API. The platform is composed of multiple modules, an overview of this is described in the [Data Model Concepts repository](https://github.com/DINA-Web/dina-model-concepts). The goal of the DINA project is to establish a set of Data Model and API standards that can be used by third parties, although they are not widely adopted yet, and nor are they well documented.
+DINA Collections uses [OpenAPI](https://spec.openapis.org/oas/v3.0.3), which is a REST-style API. The platform is composed of multiple modules, an overview of this is described in the [Data Model Concepts repository](https://github.com/DINA-Web/dina-model-concepts). The goal of the DINA project is to establish a set of Data Model and API standards that can be used by third parties, although they are not widely adopted yet, and documentation is incomplete.
 
-
-
-
-Different features are planned for different release phases:
-
-
-
-Object Storage: Release 1
-
-Users: Release 1
-
-Agents: Release 1
-
-
-
-Collection events, specimens, taxonomy, search: Release 2
-
-
-
-Generic data module: Release 3
-
-
-
-TODO: When are these release phases? What is agents module?
-
-
-
-Dina project has some funding from Agriculture and Agri-Food Canada. Ends in 2022.
+Dina project has some funding from Agriculture and Agri-Food Canada, which ends in 2022.
 
 
 
 ### Data Model
 
 
-The data models for DINA Collections are alluded to [in the documentation.](https://dina-demo-docs.nrm.se/docs/packages/backend/serviceConfigurations/#model-configuration-schema) However the documentation is not complete, so further confirmation will be needed.
+The data models for DINA Collections are alluded to [in the documentation](https://dina-demo-docs.nrm.se/docs/packages/backend/serviceConfigurations/#model-configuration-schema).
 
 
-
-[Setup instructions](https://dina-demo-docs.nrm.se/docs/setup/setup-locally-for-development/) are provided but [are incomplete](https://github.com/dina-web-nrm/dina-collections/issues/584).
-
-
+[Setup instructions](https://dina-demo-docs.nrm.se/docs/setup/setup-locally-for-development/) are provided but at the time of writing [are non-functional](https://github.com/dina-web-nrm/dina-collections/issues/584).
 
 
 | | |
@@ -161,13 +131,11 @@ The data models for DINA Collections are alluded to [in the documentation.](http
 |[Species profile model](https://tdwg.github.io/ontology/ontology/voc/SpeciesProfileModel.rdf)|?|
 |Taxonomy|Taxon/TaxonName|
 |[Specimen/Observation](https://dwc.tdwg.org/terms/)|specimen|
-|Ecological interactions|?|
+|Location|Place|
 
 
 
 ### Development
-
-
 
 There have been [no updates or releases since June 2019](https://github.com/dina-web-nrm/dina-collections/graphs/code-frequency).
 
