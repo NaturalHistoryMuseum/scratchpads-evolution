@@ -1,12 +1,12 @@
 # Scratchpads Redevelopment
 
-## [The Problem](./docs/1-problem.md)
+## [The Problem](./docs/redevelopment/1-problem.md)
 
 The Scratchpads team has until November 2022 to migrate the platform away from Drupal 7. There are many issues associated with moving to Drupal 9, the most prominent being the development effort involved. It is, we feel, worth instead spending this effort creating a new system that doesn't have the drawbacks of Drupal development.
 
 The Scratchpads front end, being our key differentiator from other platforms, should be our main focus of development. To make the best of our resources, data services such as data can and should be handled by other platforms. This will require a different architecture from Scratchpads 2.
 
-## [Data Evaluation Plan](./docs/2-data-evaluation-plan.md)
+## [Data Evaluation Plan](./docs/redevelopment/2-data-evaluation-plan.md)
 
 How can we measure and compare platforms' conformity to the Scratchpads use case?
 
@@ -23,7 +23,7 @@ The criteria are:
 
 For each of these we are able to score them on a scale from 1 (platform does not comply) to 3 (platform fully complies).
 
-## [Evaluation](./docs/3-evaluation.md)
+## [Evaluation](./docs/redevelopment/3-evaluation.md)
 
 We explore each of six platforms chosen for comparison, evaluating them against the relevant criteria.
 
@@ -37,7 +37,7 @@ The six platforms are:
 
 The quantitative data is presented in [markdown](./4-data.md) and [csv](./4-data.csv) formats.
 
-## [Conclusions](./docs/5-conclusions.md)
+## [Conclusions](./docs/redevelopment/5-conclusions.md)
 
 We review the scores and comparisons and make the case for Taxonworks as the best fitting platform.
 We note that this is still open for consideration and that we hope to make an intial decision by 9 October 2020.
