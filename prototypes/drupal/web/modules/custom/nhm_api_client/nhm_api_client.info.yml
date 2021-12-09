@@ -1,0 +1,7 @@
+name: 'NHM API Client'
+description: 'NHM API Client'
+project: nhm_api_client
+version: '1.0'
+type: module
+core: 8.x
+core_version_requirement: ^8 || ^9

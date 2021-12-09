@@ -1,0 +1,4 @@
+services:
+  nhm_api_client.nhm_api_client:
+    class: Drupal\nhm_api_client\Service\NhmAPIClient
+    arguments: []
