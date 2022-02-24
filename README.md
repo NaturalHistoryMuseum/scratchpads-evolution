@@ -2,7 +2,7 @@
 
 ## [The Problem](./docs/redevelopment/1-current/1-problem.md)
 
-The Scratchpads team has until November 2022 to migrate the platform away from Drupal 7. There are many issues associated with moving to Drupal 9, the most prominent being the development effort involved. It is, we feel, worth instead spending this effort creating a new system that doesn't have the drawbacks of Drupal development.
+The Scratchpads team has ~~until November 2022~~ \[UPDATED\]  [**NOVEMBER 1, 2023**](https://www.drupal.org/psa-2022-02-23) to migrate the platform away from Drupal 7. There are many issues associated with moving to Drupal 9, the most prominent being the development effort involved. It is, we feel, worth instead spending this effort creating a new system that doesn't have the drawbacks of Drupal development.
 
 The Scratchpads front end, being our key differentiator from other platforms, should be our main focus of development. To make the best of our resources, data services such as data can and should be handled by other platforms. This will require a different architecture from Scratchpads 2.
 
