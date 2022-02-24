@@ -2,7 +2,11 @@
 
 ## [The Problem](./docs/redevelopment/1-current/1-problem.md)
 
-The Scratchpads team has ~~until November 2022~~ \[UPDATED\]  [**NOVEMBER 1, 2023**](https://www.drupal.org/psa-2022-02-23) to migrate the platform away from Drupal 7. There are many issues associated with moving to Drupal 9, the most prominent being the development effort involved. It is, we feel, worth instead spending this effort creating a new system that doesn't have the drawbacks of Drupal development.
+The Scratchpads team has ~~until November 2022~~ \[UPDATED\]  [**NOVEMBER 1, 2023**](https://www.drupal.org/psa-2022-02-23) to migrate the platform away from Drupal 7. There are many issues associated with moving to Drupal 9, the most prominent being the development effort involved. It is, we feel, worth instead spending this effort creating a new system that doesn't have the drawbacks of Drupal development. 
+
+A few comments on 'drawbacks of Drupal development':
+- the drawbacks include deployment and devops of managing a large quanity of scratchpads. If we had a full software stack of any platform (Django, Wordpress, Plone etc) for *each* site, we could face the same challenge of rolling out releases to 1000s of sites. So it's not necessarily inherent Drupal problem, but rather how it is *applied* to a large number of separate scratchpads instances.
+- Drupal 9 (and 10) in 2022 is different from Drupal 7 under-the-bonnet and improves upon things like managing site configuration and modernised development practices such as Symfony and PHP composer which facilitate maintainance and extension.
 
 The Scratchpads front end, being our key differentiator from other platforms, should be our main focus of development. To make the best of our resources, data services such as data can and should be handled by other platforms. This will require a different architecture from Scratchpads 2.
 
