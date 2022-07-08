@@ -41,7 +41,7 @@ The six platforms are:
 -   [Atlas of Living Australia](https://github.com/AtlasOfLivingAustralia/ala-install#setup-the-living-atlas-demo)
 -   [QuitStore](https://github.com/AKSW/QuitStore)
 
-The quantitative data is presented in [markdown](./4-data.md) and [csv](./4-data.csv) formats.
+The quantitative data is presented in [markdown](./4-1-data-as-markdown.md) and [csv](./4-2-data-as-csv.csv) formats.
 
 ## [Conclusions](./docs/redevelopment/1-current/5-conclusions.md)
 
