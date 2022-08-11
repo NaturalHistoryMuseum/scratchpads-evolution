@@ -1,6 +1,12 @@
 # Scratchpads Evolution
 
-Formerly called Scratchpads Re-development.  Renamed to Scratchpads Evolution to represent an ongoing development approach, where real development evaluation and prototyping can happen sooner and in parallel with the current Scratchpads 2 platform, sometimes feeding into it into releases.  Also from a contemporary development standpoint "evolution" indicates agile and iterative approach rather than a waterfall big bang approach avoiding perpetual documentation and discussion without real development. Finally, "evolution" reflects our domain of tracking species, which have come about through evolution.
+Formerly called Scratchpads Re-development.  
+
+Renamed to Scratchpads Evolution to represent an ongoing development approach, where real development evaluation and prototyping can happen sooner and in parallel with the current Scratchpads 2 platform, sometimes feeding into it into releases.  
+
+From a contemporary development standpoint "evolution" indicates agile and iterative approach rather than a waterfall big bang approach thereby avoiding perpetual documentation and discussion without actual real development. 
+
+Finally, "evolution" reflects our domain of tracking species, which have come about through evolution.
 
 ## [The Problem](./docs/redevelopment/1-current/1-problem.md)
 
