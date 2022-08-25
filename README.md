@@ -8,6 +8,8 @@ From a contemporary development standpoint "evolution" indicates agile and itera
 
 Finally, "evolution" reflects our domain of tracking species, which have come about through evolution.
 
+Therefore, this repo represents going beyond Scratchpads 2, but can include functionality extensions in Scratchpads 2. We could also think of Scratchpads 3.0 as being part of this repo to.
+
 ## [The Problem](./docs/redevelopment/1-current/1-problem.md)
 
 The Scratchpads team has ~~until November 2022~~ \[UPDATED\]  [**NOVEMBER 1, 2023**](https://www.drupal.org/psa-2022-02-23) to migrate the platform away from Drupal 7. There are many issues associated with moving to Drupal 9, the most prominent being the development effort involved. It is, we feel, worth instead spending this effort creating a new system that doesn't have the drawbacks of Drupal development. 
