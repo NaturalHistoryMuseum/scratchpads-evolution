@@ -1,0 +1,29 @@
+Developing a site from scratch:
+
+ - UX design
+ - Data design
+ - Process design
+
+0. Identify task
+1. Gather requirements
+2. Design alternatives
+3. Prototype
+4. Evaluation
+
+
+Features of good design:
+Affordance: phenome. perceived or actual property of thing, suggests how thing can be used
+Signifiers: Marks or sounds that communicate what actions are possible & how
+Feedback: Send user information about what system input has occured. Communicates result of an action.
+
+User Engagement & ethics - interaction guidelines:
+ - Introduction: Let user know what goals are. Ask for frank opinion, no right or wrong. Confidential. Voluntary.
+ - Interaction: Neutral feedback. Keep conversation on track.
+ - Debrief: Remind them about the goals, data use plans. Get any other comments. Thank them.
+
+Tasks:
+- Create object associated with species
+- Find all objects associated with species
+
+Version history
+2021 Paul Kiddle
